@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand unless BRANDS.match(brand)
+    BRANDS << brand unless BRANDS.find(brand)
   end
 
   def cobble
