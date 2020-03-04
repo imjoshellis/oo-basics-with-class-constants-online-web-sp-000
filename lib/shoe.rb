@@ -16,7 +16,7 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS << brand unless BRANDS.match(brand)
+    BRANDS << brand unless BRANDS.learn(brand)
   end
 
 end
