@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand unless BRANDS.find(brand)
+    BRANDS << brand 
   end
 
   def cobble
@@ -16,7 +16,7 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS << brand unless BRANDS.learn(brand)
+    BRANDS << brand 
   end
 
 end
